@@ -32,4 +32,14 @@ public class Localizacao {
     public double getLongitude() {
         return longitude;
     }
+
+    @Override
+    public String toString() {
+        return "Localizacao{" +
+                "codigo=" + codigo +
+                ", logradouro='" + logradouro + '\'' +
+                ", latitude=" + latitude +
+                ", longitude=" + longitude +
+                '}';
+    }
 }
